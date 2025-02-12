@@ -1,0 +1,16 @@
+/* --------------------------------------------------------------------------------- */
+/*                                                                                   */
+/*                   COLORES PRINCIPALES PARA EL TEMA POR DEFECTO                    */
+/*                                                                                   */
+/* --------------------------------------------------------------------------------- */
+root: {
+	--claro: #dfdce8;
+	--fondo: rgba(255, 255, 255, 1);
+	--neutro: #877d96;
+	--oscuro: #376b93;
+	--principal: #7d275c;
+	--variante_oscuro_one: #649cbb;
+	--variante_oscuro_tow: #5e92b1;
+	--variante_claro_one: #9abdd2;
+	--variante_claro_tow: #90b0ce;
+}
