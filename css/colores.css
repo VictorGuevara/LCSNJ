@@ -3,7 +3,9 @@
 /*                   COLORES PRINCIPALES PARA EL TEMA POR DEFECTO                    */
 /*                                                                                   */
 /* --------------------------------------------------------------------------------- */
-root: {
+
+/* Colores */
+:root {
 	--claro: #dfdce8;
 	--fondo: rgba(255, 255, 255, 1);
 	--neutro: #877d96;
@@ -13,4 +15,27 @@ root: {
 	--variante_oscuro_tow: #5e92b1;
 	--variante_claro_one: #9abdd2;
 	--variante_claro_tow: #90b0ce;
+	--gradient_one: linear-gradient(
+		90deg,
+		rgba(55, 107, 147, 1) 0%,
+		rgba(125, 39, 92, 1) 100%
+	);
+	--gradient_tow: linear-gradient(
+		135deg,
+		rgba(100, 156, 187, 1) 0%,
+		rgba(154, 189, 210, 1) 100%
+	);
+}
+
+/* Encabecados y fuentes */
+:root {
+	--header-height: 3rem;
+
+	/*===== Fuente y tipografia =====*/
+	--body-font: "Charm", serif;
+	--normal-font-size: 0.938rem;
+	--small-font-size: 0.813rem;
+
+	/*===== z index =====*/
+	--z-fixed: 100;
 }
